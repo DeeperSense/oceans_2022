@@ -8,13 +8,12 @@ This repository contains link to download data samples and a script to create da
 
 ## Usage
 
+Required Parameters:
+
 ```
-Allowed options:
-  -h [ --help ]                      produce help message
-  -c [ --camera_type ] arg (=stereo) camera type: [stereo|mono]
-  -i [ --input_path ] arg            rosbag path
-  -o [ --output_path ] arg           export path
-  -t [ --topic ] arg                 camera image topic (Fully Qualified)
+  --sonar_dir   arg           path to sonar images directory
+  --camera_dir  arg           path to camera images directory
+  --output_dir  arg           path to output dataset
 ```
 ## How to cite
 
