@@ -1,0 +1,24 @@
+{
+    "basin-dataset-1": {
+        "Description": "...",
+        "Location": {
+            "Address": "DFKI RIC, Maritime Exploration Hall, Bremen, Germany",
+            "Latitude": 53.111925,
+            "Longitude": 8.8558901},
+        "Date": "11 Aug 2021",
+        "Size on disk": "...",
+        "Number of samples": {
+            "Camera": 42,
+            "Sonar": 420},
+        "Sensors": {
+            "Camera": {
+                "Name": "zed",
+                "Resolution": "..."},
+            "Sonar": {
+                "Name": "Tritech Gemini 720i",
+                "Operating frequency": "720 kHz",
+                "Number of beams": 256,
+                "Horizontal aperture": "120 deg",
+                "Vertical aperture": "20 deg",
+                "Angular resolution": "1 deg"}}}
+}
